@@ -1,0 +1,81 @@
+.container1{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 85px 55px 283px 300px;
+    grid-template-areas: "header header"
+                         "bar bar"
+                         "texto imagem"
+                         "footer1 footer2";
+}
+
+.header{
+    grid-area: header;
+    background-color: #FFFF;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 1vh;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.bar{
+    grid-area: bar;
+    background-color: #fd7e14;
+
+}
+
+.texto{
+    grid-area: texto;
+    background-color: #FFFF;
+    margin-top: 6vh;
+    margin-left: 2.5vh;
+
+}
+
+.imagem{
+    grid-area: imagem;
+    background-image: url(images/Pessoas_escritorio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer1{
+    grid-area: footer1;
+    background-color: #004990;
+
+}
+
+.footer2{
+    grid-area: footer2;
+    background-color: #004990;
+    
+}
+
+#imagem1{
+    margin-right: 2em;
+
+}
+
+#imagem2{
+    margin-top: 1em;
+
+}
+
+#imagem3{
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+#titulo{
+    font-size: 6vh;
+    font-family: 'Inter', sans-serif monospace;
+
+}
+
+#texto{
+    font-size: 2vh;
+    font-family: 'Inter', sans-serif monospace;
+}
